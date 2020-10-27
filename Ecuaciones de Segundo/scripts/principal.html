@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Autos Deportivos</title>
+  <meta charset="utf8">
+  <link rel="stylesheet" type="text/css" href="../../Practica2/Styles/estilo.css">
+</head>
+
+<body>
+      <h1>Autos Deportivos </h1>
+      <div id="ContendorP">
+      <div id="Contenedor">
+          <center>
+                   <ul id="lista">
+                   </ul>
+          </center>
+      </div>
+      <div id="lateral">
+      <br>
+      Marca: <input type=text id="Marca del automovil" placeholder="Marca"/>
+      <br><br>
+      Clase del automovil: <select id="Clase">
+          <option> Clase S</option>
+          <option> Clase A</option>
+          <option> Clase B</option>
+          </select>
+          <br><br>
+      Informacion: <textarea id="Inofmacion del vehiculo" placeholder="Informacion"></textarea>
+       <br><br>
+      Image: <input type="file" id="imagefile" accept="image/jpg, image/png">
+      <br><br>
+      <button onclick="UpImage()">Agregar</button>
+      </div>
+      </div>
+      <script type="text/javascript">
+        lee_json1();
+        </script>
+</body>
+</html>

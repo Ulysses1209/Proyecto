@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta charset"utf-8">
+    <link rel="stylesheet" type="text/css" href= "styles/estilo12.css" media="all">
+
+
+    <title>calculadora</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+
+<body>
+        <header>
+            <div class="Contenedor">
+            <nav class = 'menu'>
+
+            </nav>
+            <Center>
+
+                <img src="images1/image2.jpg">
+                <h1> Calculadora de Ecuaciones de Segundo Grado</h1>
+            </Center>
+            <li><a href="Pagina_principal.htm">PRINCIPAL</a></li>
+            <li><a id="actual" href="#">CALCULADORA</a></li><br>
+             <h2> Ingrese los valores de la Ecuacion</h2>
+
+                 <section>
+                  <form>
+                  <center>
+
+
+                        A: <input id="num1" type="number" style="color:red" /><br><br>
+                        B: <input id="num2" type="number" style="color:red" /><br><br>
+                        C: <input id="num3" type="number" style="color:red"/><br><br>
+                        <h2><p id="resultado" style="color: yellow"></p>   </h2>
+                        <br /><br />
+
+                    <input type="button" value="Variable1" onclick="operaciones('variable1'); return false;" />
+                    <input type="button" value="Variable2" onclick="operaciones('variable2'); return false;" /><br />
+                   </center>
+
+
+
+                 </form><br><br>
+
+                 </section>
+             </div>
+        </header>
+
+</body>
+         <script src="scripts/funcion.js"></script>
+</html>

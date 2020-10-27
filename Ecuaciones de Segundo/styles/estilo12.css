@@ -1,0 +1,32 @@
+.calcu a{
+
+text-decoration: none;
+}
+.menu li{
+display:inline-block
+
+}
+
+#actual{
+font-weight:bold;
+text-decoration: blink;
+cursor: text;
+}
+
+.Contenedor{
+font-weight:bold;
+text-decoration:blink;
+cursor: text;
+
+width: 100%;
+height: 1000px;
+background-image:url(..\\images1\\image4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: purple;
+font-size:medium;
+padding: 50px;
+}
+form{
+text-align: left;
+}
